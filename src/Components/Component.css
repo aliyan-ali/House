@@ -1,0 +1,34 @@
+/* navbar style */
+.nav-container {
+    background-color: #CADC4B !important;
+}
+
+
+
+.video-container video {
+    width: 100%;
+}
+.services-title {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-box {
+    box-shadow: 1px 0px 15px rgb(99, 99, 99);
+}
+.card-box, .card-img, .card-title {
+    transition: all .3s ease-in-out;
+}
+.card-box:hover {
+    box-shadow: 1px 0px 25px #e3fe19;
+}
+.card-img {
+    filter: grayscale(100);
+}
+.card-box:hover .card-img {
+    filter: grayscale(0);
+}
+.card-box:hover h3 {
+    color: #CADC4B;
+}
